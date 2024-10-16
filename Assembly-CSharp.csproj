@@ -61,12 +61,12 @@
      <Compile Include="Assets\Game\Scripts\ECS\Systems\UI\MainMenuSystem.cs" />
      <Compile Include="Assets\Game\Scripts\PreBattle\SpawnZone.cs" />
      <Compile Include="Assets\Game\Scripts\ECS\Systems\UI\BaseUIWindowSystem.cs" />
-     <Compile Include="Assets\Game\Scripts\Common\RuntimeTempData.cs" />
      <Compile Include="Assets\Game\Scripts\Common\Inventory.cs" />
      <Compile Include="Assets\Game\Scripts\ECS\LevelDataProvider.cs" />
      <Compile Include="Assets\Game\Scripts\ECS\Systems\AppInitSystem.cs" />
      <Compile Include="Assets\FPS\Base\AppLauncher.cs" />
      <Compile Include="Assets\ExternalAssets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIParticleSystem.cs" />
+     <Compile Include="Assets\Game\Scripts\Common\RuntimeData.cs" />
      <Compile Include="Assets\Game\Scripts\UI\UIBattlePreparationWindow.cs" />
      <Compile Include="Assets\Game\Scripts\ECS\Systems\BattlePreparation\UnitSpawnSystem.cs" />
      <Compile Include="Assets\Game\Scripts\Commands\ShowUIRootCommand.cs" />

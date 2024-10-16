@@ -47,7 +47,7 @@ namespace ECS
 				#endregion
 
 				.Inject(
-					new RuntimeTempData(),
+					new RuntimeData(),
 					new User())
 				.Init();
 		}
