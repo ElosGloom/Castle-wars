@@ -12,9 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f32cd27b1255ca4e890708326876bea, type: 3}
   m_Name: PoolDescription
   m_EditorClassIdentifier: 
-  poolables:
-  - <Prefab>k__BackingField: {fileID: 0}
-    <Count>k__BackingField: 1
-    <Key>k__BackingField: 
-    <PrewarmType>k__BackingField: 0
+  poolables: []
   renamePoolables: 0

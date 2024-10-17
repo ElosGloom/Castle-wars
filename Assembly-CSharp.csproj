@@ -53,6 +53,7 @@
     <Compile Include="Assets\Game\Scripts\ECS\Systems\UI\BattlePreparationUISystem.cs" />
     <Compile Include="Assets\ExternalAssets\Layer Lab\GUI Pro-FantasyRPG\Scripts\PanelControlFantasyRPG.cs" />
     <Compile Include="Assets\Game\Scripts\Common\User.cs" />
+    <Compile Include="Assets\Game\Scripts\DTO\UnitStatsDTO.cs" />
     <Compile Include="Assets\Game\Scripts\ECS\EcsStartup.cs" />
     <Compile Include="Assets\ExternalAssets\Layer Lab\GUI Pro-FantasyRPG\Scripts\PanelFantasyRPG.cs" />
     <Compile Include="Assets\Game\Scripts\ECS\Systems\UI\CloseWindowSystem.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Assets\ExternalAssets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIParticleSystem.cs" />
     <Compile Include="Assets\Game\Scripts\Common\RuntimeData.cs" />
     <Compile Include="Assets\Game\Scripts\UI\UIBattlePreparationWindow.cs" />
+    <Compile Include="Assets\Game\Scripts\DTO\UserDTO.cs" />
     <Compile Include="Assets\Game\Scripts\ECS\Systems\BattlePreparation\UnitSpawnSystem.cs" />
     <Compile Include="Assets\Game\Scripts\Commands\ShowUIRootCommand.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -85,6 +87,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\FPS\Resources\CachedSheetsData.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
