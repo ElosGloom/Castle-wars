@@ -1,5 +1,6 @@
 using FPS;
-using Game.UIService.Buttons;
+using FPS.UI;
+using FPS.UI.Buttons;
 using TMPro;
 using UniRx;
 using UnityEngine;

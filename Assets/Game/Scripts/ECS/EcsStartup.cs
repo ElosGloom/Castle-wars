@@ -1,6 +1,7 @@
 using Common;
 using ECS.Systems;
 using ECS.Systems.UI;
+using FPS.Sheets;
 using Leopotam.EcsLite;
 using Leopotam.EcsLite.Di;
 using UnityEngine;
@@ -48,7 +49,8 @@ namespace ECS
 
 				.Inject(
 					new RuntimeData(),
-					new User())
+					new User(),
+					new DTOStorage())
 				.Init();
 		}
 
