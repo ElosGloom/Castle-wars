@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <APIKey>k__BackingField: AIzaSyA3c-QGe164O2iScqQzzczZvPWZKbv6IMc
   <SheetID>k__BackingField: 1_wh02i8ces2mzsFZWb5jXyKLTgmbxtPptVLfxevZg9s
-  <ReceiveType>k__BackingField: 1
+  <LoadType>k__BackingField: 1

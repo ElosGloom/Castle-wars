@@ -21,7 +21,6 @@ namespace ECS.Systems
         {
             _ecsWorld = systems.GetWorld();
             _camera = Camera.main;
-            _user.Value.Load();
             _runtimeData.Value.AvailableMeleeUnits = new(_user.Value.Inventory["melee"]);
           
         }
