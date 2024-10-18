@@ -12,7 +12,7 @@ namespace DTO
 
 		public UserDTO(IDictionary ht)
 		{
-			SheetsApi.ParseValue(ht[nameof(Inventory)], out Inventory);
+			Parser.GetValue(ht[nameof(Inventory)], out Inventory);
 		}
 	}
 }

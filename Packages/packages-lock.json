@@ -14,7 +14,7 @@
       "dependencies": {
         "com.fps.utils": "0.0.1"
       },
-      "hash": "6e78e5c230344e2b3569948487399e521c1954a7"
+      "hash": "a6a9f2bccbdae928ceaeda774785fd3c3945b492"
     },
     "com.fps.pool": {
       "version": "https://github.com/fixeles/fluffy-pool.git",
@@ -32,7 +32,7 @@
       "dependencies": {
         "com.fps.utils": "0.0.1"
       },
-      "hash": "9110ca8fc30088160f2c2fffaeb7fa1a5db506bf"
+      "hash": "65495f479375303d78cfd8eff372da98a31bd866"
     },
     "com.fps.utils": {
       "version": "https://github.com/fixeles/fluffy-utils.git",

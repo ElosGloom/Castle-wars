@@ -1,5 +1,4 @@
 using Commands;
-using Common;
 using FPS;
 using FPS.Sheets;
 using Leopotam.EcsLite;
@@ -18,7 +17,7 @@ namespace ECS.Systems
 
 			var queue = new CommandQueue();
 			BaseCommands.Insert(queue);
-			SheetCommands.Insert(queue, new SheetsApi(_dtoStorage.Value));
+			SheetCommands.Insert(queue, _dtoStorage.Value);
 
 
 			//add other commands

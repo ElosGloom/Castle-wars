@@ -15,11 +15,11 @@ namespace DTO
 
 		public UnitStatsDTO(IDictionary ht)
 		{
-			SheetsApi.ParseValue(ht[nameof(Id)], out _id);
-			SheetsApi.ParseValue(ht[nameof(Health)], out Health);
-			SheetsApi.ParseValue(ht[nameof(Armor)], out Armor);
-			SheetsApi.ParseValue(ht[nameof(Range)], out Range);
-			SheetsApi.ParseValue(ht[nameof(Attack)], out Attack);
+			Parser.GetValue(ht[nameof(Id)], out _id);
+			Parser.GetValue(ht[nameof(Health)], out Health);
+			Parser.GetValue(ht[nameof(Armor)], out Armor);
+			Parser.GetValue(ht[nameof(Range)], out Range);
+			Parser.GetValue(ht[nameof(Attack)], out Attack);
 		}
 	}
 }
